@@ -14,7 +14,7 @@ form.addEventListener('submit', function(e) {
         
 
         fetch('http://localhost:8080/produtos', {
-            method: 'POST',
+            method: 'PUT',
             headers: {'content-type': 'application/json'},
             body: JSON.stringify(produto)
         })
